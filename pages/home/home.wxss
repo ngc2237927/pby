@@ -1,0 +1,197 @@
+/* pages/home/home.wxss */
+page{
+  background-color: rgb(232, 247, 232);
+}
+swiper{
+  height: 430rpx;
+
+}
+swiper-item image{
+width: 100%;
+height: 100%;
+}
+.top{
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+  background-color: #7a9b60;
+  width: 95%;
+  height: 720rpx;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15rpx;
+}
+.flex1{display: flex;}
+.aimg{
+  width:260rpx;
+  height: 200rpx;
+}
+
+.title{
+  font-size: 50rpx;
+  color: white;
+  font-weight: 600;
+  align-self: center;
+  text-shadow: 1rpx 1rpx 5rpx rgb(33, 83, 50);
+}
+
+.more{
+  background-color: rgb(217, 240, 226);
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  align-self: center;
+  font-size: 25rpx;
+display: flex;
+text-align: center;
+box-shadow: rgb(62, 114, 62) 0rpx 8rpx 10rpx;
+color: rgb(89, 129, 88);
+margin-left: 100rpx;
+padding: 5rpx;
+}
+.more text{
+  align-self: center;
+
+}
+
+.fourmo{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  
+}
+
+.fourmo view{
+width: 48%;
+height: 220rpx;
+background-color: rgb(255, 255, 255);
+margin-top: 10rpx;
+margin-bottom: 10rpx;
+border-radius: 10rpx;
+display: flex;
+align-items: center;
+justify-content: space-around;
+box-shadow: rgb(98, 126, 126) 0rpx 2rpx 10rpx;
+}
+.fourmo image{
+width: 40%;
+height:75%;
+}
+
+.fourmo text{
+font-size: 35rpx;
+color: rgb(58, 73, 63);
+}
+
+.spring{
+background:url('https://20006355.s61i.faiusr.com/4/AD0I04vFCRAEGAAg98666QUo7LbtiQMw0AU49wE.png') center ;
+background-size: cover;
+width: 100%;
+height: 250rpx;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.spring image{
+  width: 40%;
+  height: 50%;
+}
+.scro{
+  white-space: nowrap;
+  height: 550rpx;
+ 
+
+}
+
+.scritem{
+  display: inline-flex;
+ flex-direction: column;
+ align-items: center;
+margin: 10rpx 20rpx;
+border-radius: 15rpx;
+box-shadow: rgb(98, 107, 107) -1rpx 1rpx 15rpx;
+background-color: rgb(255, 255, 255);
+}
+.scritem image{
+ height:450rpx;
+ width: 400rpx;
+}
+.wrapsma{
+  display: flex;
+  justify-content: center;
+  margin:40rpx auto;
+}
+.title2{
+font-size: 50rpx;
+font-weight: 600;
+}
+
+.scrtex{font-size: 36rpx;}
+
+.scro2{
+margin-top: 60rpx;
+white-space: nowrap;
+height: 100rpx;
+
+font-size: 40rpx;
+font-weight: 500;
+}
+
+.scro2 view{
+font-size: 30rpx;
+ display: inline-block;
+
+margin-left: 50rpx;
+margin-right: 50rpx;
+height: 99rpx;
+line-height: 99rpx;
+}
+
+.scro2 view:hover{
+  font-size: 50rpx;
+  border-bottom: rgb(164, 216, 148) solid 20rpx;
+}
+
+
+.wrap3{
+  margin: 25rpx 0rpx;
+  display: flex;
+  flex-wrap: wrap;
+justify-content: space-around;
+
+}
+
+.wrap3 view{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 47%;
+  height: 600rpx;
+  background-color: rgb(255, 255, 255);
+  margin-top: 15rpx;
+  border-radius: 20rpx;
+  box-shadow: rgb(185, 185, 185) 1rpx 1rpx 50rpx;
+}
+
+.wrap3 view .fm{
+  width: 100%;
+  height: 75%;
+  border-radius:20rpx 20rpx 0rpx 0rpx ;
+}
+
+.wrap3 view text{
+  margin-top: 10rpx;
+}
+
+.xiangq{
+width: 100rpx;
+height: 100rpx;
+position: relative;
+left: 130rpx;
+top: 20rpx;
+background-image: '/image/icon/收藏 (1).png';
+background-size: cover;
+}
+
+
+

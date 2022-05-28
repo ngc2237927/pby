@@ -1,0 +1,74 @@
+/* pages/commu/commu.wxss */
+.wrap{
+ background-color: rgb(192, 192, 192);
+}
+.wrapitem{
+ 
+  height: 500rpx;
+  border-radius: 15rpx;
+  box-shadow: darkolivegreen 2rpx 2rpx 15rpx;
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 10rpx;
+}
+
+.user{
+  border-bottom: rgb(122, 122, 122) solid 2rpx;
+  background-color: darkolivegreen;
+  height: 120rpx;
+}
+
+.username{
+ font-size: 25rpx;
+ left: 10rpx;
+ position: relative;
+ bottom: 30rpx;
+}
+.time{
+  margin-left: 50%;
+  font-size: 20rpx;
+ 
+  color: rgb(248, 248, 248);
+}
+
+.user image{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+margin-top: 5rpx;
+}
+
+
+.good{
+  display: inline-block;
+  width: 50rpx;
+  height: 50rpx;
+
+  background-position: center;
+  background-size: 50rpx;
+  background-repeat: no-repeat;
+
+  vertical-align: middle;
+}
+
+.zan{
+  font-size: 20rpx;
+ color: darkgrey;
+}
+.wrapgood{
+  display: inline-block;
+ 
+  position: absolute;
+  right: 15rpx;
+}
+
+.remark{
+  font-size: 30rpx;
+  width: 90%;
+margin: 50rpx auto;
+}
+
+.bottom .book{
+  font-size: 35rpx;
+font-weight: 700;
+}
+

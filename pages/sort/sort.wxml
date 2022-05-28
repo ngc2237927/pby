@@ -1,0 +1,18 @@
+<!--pages/sort/sort.wxml-->
+<scroll-view scroll-x="true" class="scro2">
+<view bindtap="getbook" data-dex="alist">古典文学</view>
+<view bindtap="getbook" data-dex="blist">诗歌童话</view>
+<view bindtap="getbook" data-dex="clist">推理烧脑</view>
+<view bindtap="getbook" data-dex="dlist">科幻小说</view>
+<view bindtap="getbook" data-dex="elist">西方哲学</view>
+</scroll-view>
+<view class="geli" style="position: relative;margin-bottom: 20rpx;"></view>
+<view class="wrap">
+<view wx:for="{{list}}" wx:key="id" class="wrapitem">
+<image class="fm" src="{{item.image}}"></image>
+<view class="wraptext">
+<text class="name">{{item.name}}</text>
+<text class="intro">{{item.intro}}</text>
+</view>
+</view>
+</view>

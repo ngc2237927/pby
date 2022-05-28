@@ -1,0 +1,49 @@
+<!--pages/home/home.wxml-->
+<swiper indicator-dots circular autoplay="true" >
+<swiper-item wx:for="{{swiperlist}}" wx:key="id">
+<image src="{{item.image}}" ></image>
+</swiper-item>
+</swiper>
+<view class="top">
+<view class="flex1">
+<image src="https://20006355.s61i.faiusr.com/4/AD0I04vFCRAEGAAgxs_66QUop-aprAYw2gE4oQE.png" class="aimg"></image>
+<text class="title">主编推荐</text>
+<view class="more"><text>查看更多</text></view>
+</view>
+<view class="fourmo">
+<view wx:for="{{fourlist}}" wx:key="id">
+<text>{{item.text}}</text>
+<image src="{{item.image}}"></image>
+</view>
+</view>
+</view>
+<view class="spring">
+<image src="https://20006355.s61i.faiusr.com/4/AD0I04vFCRAEGAAg98666QUo3urf6QEw0wI4Zg.png"></image>
+</view>
+
+<view class="wrapv">
+<view class="wrapsma"><text class="title2">- 特色书单 -</text></view>
+<scroll-view  class="scro" scroll-x="true" >
+<view class="scritem" wx:for="{{tesebook}}" wx:key="id">
+<image src="{{item.image}}"></image>
+<text class="scrtex">{{item.text}}</text>
+</view>
+</scroll-view>
+</view>
+
+<scroll-view scroll-x="true" class="scro2">
+<view bindtap="getbook" data-dex="alist">人气推荐</view>
+<view bindtap="getbook" data-dex="blist">新书速递</view>
+<view bindtap="getbook" data-dex="clist">最受关注</view>
+<view bindtap="getbook" data-dex="dlist">高分图书</view>
+<view bindtap="getbook" data-dex="elist">中国文学</view>
+</scroll-view>
+<view class="wrap3">
+<view wx:for="{{list}}" wx:key="id">
+<image class="fm" src="{{item.image}}"></image>
+<text>{{item.name}}</text>
+
+<image class="xiangq" src="{{xiangq}}"></image>
+</view>
+</view>
+

@@ -1,0 +1,23 @@
+<!--pages/commu/commu.wxml-->
+
+<view class="wrap">
+<view class="wrapitem" wx:for="{{getuser}}" wx:key="id">
+<view class="user">
+  <image src="{{item.image}}"></image>
+  <text class="username">{{item.username}}</text>
+  <text class="time">发布于{{item.time}}</text>
+</view>
+<view class="remark">
+<text>{{item.remark}}</text>
+</view>
+<view class="bottom">
+<text class="book">#{{item.book}}</text>
+<view class="wrapgood">
+<view class="good" style="background-image: url('{{item.good}}');" bindtap="add" data-dex="{{item.id}}"></view>
+<text class="zan">{{item.zan}}个赞</text>
+</view>
+</view>
+
+</view>
+</view>
+

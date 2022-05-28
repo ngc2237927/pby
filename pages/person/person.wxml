@@ -1,0 +1,29 @@
+<!--pages/person/person.wxml-->
+<view class="top">
+<view class="big">
+  <view class="wrapima"><open-data type="userAvatarUrl" class="userimage"></open-data></view>
+  <open-data type="userNickName" class="userid"></open-data>
+</view>
+
+
+</view>
+<view class="list"> 
+  <view class="sc">
+  <text class="text1">我的书架</text>
+  <text class="text2">全部收藏  ></text>
+</view>
+<image src="https://img9.doubanio.com/view/subject/s/public/s33821754.jpg"></image>
+<image src="https://img9.doubanio.com/view/subject/s/public/s34126046.jpg"></image>
+<image src="https://img2.doubanio.com/view/subject/s/public/s33496233.jpg"></image>
+</view>
+
+<view class="list2">
+<view><text>我关注的读者</text><text>></text></view>
+<view><text>我赞过的书评</text><text>></text></view>
+<view><text>我关注的作家</text><text>></text></view>
+</view>
+
+<view class="list3">
+<view><text>我发布的书评</text><text>></text></view>
+<view><text>我已看完的书</text><text>></text></view>
+</view>
